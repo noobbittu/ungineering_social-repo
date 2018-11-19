@@ -19,10 +19,10 @@
                 </div>
                 <div class="col-2 dashboard">
                     <div class="register">
-                        <button>Register</button>
+                        <button class="rounded">Register</button>
                     </div>
                     <div class="login">
-                        <button>Login</button>
+                        <button class="rounded">Login</button>
                     </div>
                 </div>
             </div>
@@ -59,19 +59,14 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <form class="form-container">
+                    <form class="form-container" id="form">
                         <h1>What are you upto?</h1>
-                        <hr/ color="black">
+                        <hr color="black"/>
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            <label for="exampleInputStatus1">Enter your status update here</label>
+                            <input type="text" name="status" class="form-control" id="exampleInputStatus1" placeholder="What's on your mind?">
                         </div>
-                        <div class="form-group">
-                            <label for="exampleInputStatus1">Status</label>
-                            <input type="text" class="form-control" id="exampleInputStatus1" placeholder="What's on your mind?">
-                        </div>
-                        <button class="btn btn-success btn-block">Update</button>
+                            <button type="submit" class="btn btn-success btn-block">Submit</button>
                     </form>
                 </div>
             </div>
@@ -79,6 +74,6 @@
         <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
-        <script type="text/javascript" src="js/homepage_submit.js"></script>
+        <script type="text/javascript" src="js/homepage.js"></script>
     </body>
 </html>

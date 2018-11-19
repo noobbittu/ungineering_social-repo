@@ -3,7 +3,7 @@
     $username= "root";
     $db_password= "ketan1998";
     $databese= "ungineering";
-    $conn = mysqli_connect($hostnam, $username, $db_password, $databese);
+    $conn = mysqli_connect($hostname, $username, $db_password, $databese);
     
     if(!$conn){
         die("Connection failed:".mysqli_connect_error());
