@@ -1,20 +1,23 @@
-<?php
-session_start();
+<!--<?php
+session_start(); //it is creaing the _session super global variable
 //$email = $_COOKIE['email'];
 $email = $_SESSION ['email'];
 echo $email;
-?>
+?>-->
 <html>
     <head>
         <meta charset ="utf-8">
-        <link rel="stylesheet" href="css/bootstrap.css"/>
-        <link rel ="stylesheet" href="css/dashboard.css"/>  
+        <link rel="stylesheet" href="../../static/css/dashboard.css">
+        <!--<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>static/css/dashboard.css">-->
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>static/css/bootstrap.css">
+        <script type='text/javascript' src="<?php echo base_url(); ?>static/js/jquery-3.3.1.min.js"></script>
+        <script type='text/javascript' src="<?php echo base_url(); ?>static/js/dashboard.js"></script>
     </head>
     <body class="container-fluid">
         <div class="row header bg-dark">
             <div class="col-4">
                 <a href="#">
-                    <img class="img" src="css/a.png" alt="LOGO"/>
+                    <img class="img" src="<?php echo base_url(); ?>static/img/a.png" alt="LOGO"/>
                 </a>
             </div>
             <div class="col-1">
@@ -52,8 +55,9 @@ echo $email;
                 </form>
             </div>
         </div>
-        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-        <script type="text/javascript" src="js/dashboard.js"></script>
+        <script type="text/javascript" src="static/js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="static/js/dashboard.js"></script>
     </body>
 </html>
+
 
