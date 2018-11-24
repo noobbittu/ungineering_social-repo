@@ -1,0 +1,108 @@
+* {
+     box-sizing: border-box;
+ }
+ 
+.A::after {
+    content: "";
+    display: block;
+    clear:   both;
+ }     
+
+.B::after {
+    content: "";
+    display: block;
+    clear:   both;
+ }  
+
+.A {
+    border: solid 1px red;
+    height:100px;
+}
+    
+.B {
+    border: solid 1px red ;
+    height:150px;
+}
+
+.level1 {
+    border: solid 1px black;
+    height: 98px;
+    float: left;
+    width:33.30%;        
+ }
+
+.level2 {
+    border: solid 1px black;
+    height: 148px;
+    float: left;
+    width:49.95%;        
+ }
+ 
+.level3 {
+    border: solid 1px black;
+    height: 148px;
+    float: left;
+    width: 29.96%;        
+ }
+ 
+.level4 {
+    border: solid 1px black;
+    height: 148px;
+    float: left;
+    width: 14.96%;        
+ } 
+ 
+.level5 {
+    border: solid 1px black;
+    height: 148px;
+    float: left;
+    width: 39.96%;        
+ } 
+ 
+.level6 {
+    border: solid 1px black;
+    height: 98px;
+    float: left;
+    width: 49.95%;        
+ } 
+
+.level7 {
+    border: solid 1px blue;
+    height: 49.90%;
+    float: left;
+    width: 99.95%;      
+ } 
+ 
+.level8 {
+    border: solid 1px blue;
+    height: 33.30%;
+    float: left;
+    width: 99.99%;      
+ }  
+
+.R {
+    border: solid 3px red;
+    height: 50.30%;
+    margin: auto;
+    width: 99.98%;      
+ }   
+
+.Y {
+    border: solid 3px yellow;
+    height: 50.30%;
+    margin: auto;
+    width: 99.98%;      
+ }    
+
+.l {
+    border: solid 3px blue;
+    height: 50.30%;
+    float: left;
+    width: 99.98%;      
+ }    
+ 
+ 
+ 
+ 
+ 
+ 
